@@ -1,0 +1,39 @@
+.header {
+
+  display: flex;
+
+  justify-content: center;
+  align-items: end;
+
+  width: 100%;
+  height: 19dvh;
+
+  background: var(--primary-1);
+
+  position: relative;
+}
+
+.header .traco{
+  width: 2rem;
+  height: .2rem;
+
+  background: var(--primary-4);
+
+  position: absolute;
+
+  right: 22px;
+  top: 21px;
+}
+
+.header .traco::after {
+  content: '';
+
+  display: block;
+
+  width: 2rem;
+  height: .2rem;
+
+  margin: .5rem 0 0 0;
+
+  background: var(--primary-4)     ;
+}

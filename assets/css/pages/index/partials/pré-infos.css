@@ -1,0 +1,34 @@
+.pré-infos {
+  width: 100%;
+  height: 76.4dvh;
+
+  background: var(--primary-1);
+}
+
+.pré-infos img {
+  position: relative;
+}
+
+.pré-infos .box-img-rener {
+  width: 35rem;
+  height: 58.9rem;
+
+  border-radius: 3rem;
+  background: var(--primary-3);
+
+  position: absolute;
+
+  bottom: 0;
+  left: 10%;
+}
+
+.pré-infos .dez-projetos p {
+  color: var(--primary-4);
+
+  font-size: 1.5rem;
+
+  position: absolute;
+
+  right: 0;
+  top: 50%;
+}
